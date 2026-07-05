@@ -9,22 +9,19 @@ Dark HUD system monitor dashboard built with Qt6 C++. Designed to sit on a secon
 
 ## UI Layout
 
-```
 ![Design Reference](docs/design-reference.png)
-
-```
 
 ## Architecture
 
 ```mermaid
 graph TD
-    P["/proc/stat\n/proc/meminfo\n/proc/net/dev"]
+    P["/proc/stat<br/>/proc/meminfo<br/>/proc/net/dev"]
     P --> LSM[LinuxSystemMonitor]
-    LSM -->|poll every 1s| DM[DashboardModel\nQTimer + Qt signals]
-    DM --> CPU[CpuCard\nQPainter bars + sparkline]
-    DM --> RAM[RamCard\nQPainter bar + sparkline]
-    DM --> NET[NetCard\nQPainter sparkline]
-    CPU --> DW[DashboardWindow\nframeless Qt::FramelessWindowHint]
+    LSM -->|poll every 1s| DM["DashboardModel<br/>QTimer + Qt signals"]
+    DM --> CPU["CpuCard<br/>QPainter bars + sparkline"]
+    DM --> RAM["RamCard<br/>QPainter bar + sparkline"]
+    DM --> NET["NetCard<br/>QPainter sparkline"]
+    CPU --> DW["DashboardWindow<br/>frameless"]
     RAM --> DW
     NET --> DW
     CB[ClockBar] --> DW
