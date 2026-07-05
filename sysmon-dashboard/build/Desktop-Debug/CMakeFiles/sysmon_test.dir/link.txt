@@ -1,0 +1,1 @@
+/usr/bin/g++-13 -DQT_QML_DEBUG -g CMakeFiles/sysmon_test.dir/sysmon_test_autogen/mocs_compilation.cpp.o CMakeFiles/sysmon_test.dir/LinuxSystemMonitor.cpp.o -o sysmon_test  /usr/lib/x86_64-linux-gnu/libQt6Core.so.6.4.2 

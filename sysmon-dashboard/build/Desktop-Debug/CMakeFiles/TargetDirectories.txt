@@ -1,0 +1,12 @@
+/home/tuwai/sysmon-dashboard/sysmon-dashboard/build/Desktop-Debug/CMakeFiles/sysmon-dashboard.dir
+/home/tuwai/sysmon-dashboard/sysmon-dashboard/build/Desktop-Debug/CMakeFiles/sysmon_test.dir
+/home/tuwai/sysmon-dashboard/sysmon-dashboard/build/Desktop-Debug/CMakeFiles/edit_cache.dir
+/home/tuwai/sysmon-dashboard/sysmon-dashboard/build/Desktop-Debug/CMakeFiles/rebuild_cache.dir
+/home/tuwai/sysmon-dashboard/sysmon-dashboard/build/Desktop-Debug/CMakeFiles/list_install_components.dir
+/home/tuwai/sysmon-dashboard/sysmon-dashboard/build/Desktop-Debug/CMakeFiles/install.dir
+/home/tuwai/sysmon-dashboard/sysmon-dashboard/build/Desktop-Debug/CMakeFiles/install/local.dir
+/home/tuwai/sysmon-dashboard/sysmon-dashboard/build/Desktop-Debug/CMakeFiles/install/strip.dir
+/home/tuwai/sysmon-dashboard/sysmon-dashboard/build/Desktop-Debug/CMakeFiles/sysmon-dashboard_autogen_timestamp_deps.dir
+/home/tuwai/sysmon-dashboard/sysmon-dashboard/build/Desktop-Debug/CMakeFiles/sysmon-dashboard_autogen.dir
+/home/tuwai/sysmon-dashboard/sysmon-dashboard/build/Desktop-Debug/CMakeFiles/sysmon_test_autogen_timestamp_deps.dir
+/home/tuwai/sysmon-dashboard/sysmon-dashboard/build/Desktop-Debug/CMakeFiles/sysmon_test_autogen.dir
