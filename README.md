@@ -10,7 +10,7 @@ Dark HUD system monitor dashboard built with Qt6 C++. Designed to sit on a secon
 ## UI Layout
 
 ```
-<img width="670" height="1032" alt="image" src="https://github.com/user-attachments/assets/225ca16e-4ee0-4f8d-bae3-7f227e6426aa" />
+![Design Reference](docs/design-reference.png)
 
 ```
 
