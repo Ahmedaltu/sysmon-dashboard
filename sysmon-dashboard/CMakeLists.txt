@@ -17,6 +17,12 @@ set(PROJECT_SOURCES
         dashboardwindow.cpp
         dashboardwindow.h
         dashboardwindow.ui
+        LinuxSystemMonitor.cpp
+        LinuxSystemMonitor.h
+        metriccard.cpp
+        metriccard.h
+        sparklinewidget.cpp
+        sparklinewidget.h
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)

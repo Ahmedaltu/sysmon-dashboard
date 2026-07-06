@@ -1,23 +1,25 @@
-#ifndef DASHBOARDWINDOW_H
-#define DASHBOARDWINDOW_H
-
+#pragma once
 #include <QWidget>
+#include "LinuxSystemMonitor.h"
 
-QT_BEGIN_NAMESPACE
-namespace Ui {
-class DashboardWindow;
-}
-QT_END_NAMESPACE
+class MetricCard;
+class QTimer;
 
-class DashboardWindow : public QWidget
-{
+class DashboardWindow : public QWidget {
     Q_OBJECT
-
 public:
-    DashboardWindow(QWidget *parent = nullptr);
-    ~DashboardWindow();
+    explicit DashboardWindow(QWidget *parent = nullptr);
+
+private slots:
+    void onTick();
+
+protected:
+    bool eventFilter(QObject *obj, QEvent *e) override;
 
 private:
-    Ui::DashboardWindow *ui;
+    LinuxSystemMonitor m_mon;
+    QTimer            *m_timer;
+    MetricCard        *m_cpuCard;
+    MetricCard        *m_ramCard;
+    MetricCard        *m_netCard;
 };
-#endif // DASHBOARDWINDOW_H
